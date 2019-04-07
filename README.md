@@ -1,4 +1,4 @@
-# Core Data Framework Example
+# Core Data Framework Example Updated to Swift 5
 
 # Resources
 This repository contains example Xcode projects for the blog post at [Sharing a Core Data Model with a Swift Framework](https://medium.com/@yoellev8/sharing-a-core-data-model-with-a-swift-framework-5d191ccec99e/).
