@@ -12,23 +12,7 @@
 		B15FDD7221FAF5BD004364F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15FDD7021FAF5BD004364F6 /* Main.storyboard */; };
 		B15FDD7421FAF5C0004364F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15FDD7321FAF5C0004364F6 /* Assets.xcassets */; };
 		B15FDD7721FAF5C0004364F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15FDD7521FAF5C0004364F6 /* LaunchScreen.storyboard */; };
-		B15FDD8E21FAFC43004364F6 /* CoreDataFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15FDD8C21FAFC3C004364F6 /* CoreDataFramework.framework */; };
-		B15FDD8F21FAFC43004364F6 /* CoreDataFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B15FDD8C21FAFC3C004364F6 /* CoreDataFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B15FDD8721FAFA17004364F6 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B15FDD8F21FAFC43004364F6 /* CoreDataFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B15FDD6921FAF5BD004364F6 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15FDD8E21FAFC43004364F6 /* CoreDataFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +76,6 @@
 				B15FDD6521FAF5BD004364F6 /* Sources */,
 				B15FDD6621FAF5BD004364F6 /* Frameworks */,
 				B15FDD6721FAF5BD004364F6 /* Resources */,
-				B15FDD8721FAFA17004364F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
