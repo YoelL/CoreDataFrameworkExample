@@ -10,9 +10,9 @@ import Foundation
 import CoreData
 
 
-public class CoreDateManager {
+public class CoreDataManager {
     
-    public static let shared = CoreDateManager()
+    public static let shared = CoreDataManager()
     
     let identifier: String  = "com.yoelev.CoreDataFramework"       //Framework bundle ID
     let model: String       = "CoreDataModel"                      //Model name

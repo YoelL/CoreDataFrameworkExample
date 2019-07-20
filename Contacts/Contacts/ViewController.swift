@@ -14,16 +14,16 @@ class ViewController: UIViewController {
     override func loadView() {
         super.loadView()
         
-        CoreDateManager.shared.createPerson(firstname: "John", lastname: "Doe", age: 35)
-        CoreDateManager.shared.createPerson(firstname: "Liam", lastname: "Croft", age: 27)
-        CoreDateManager.shared.createPerson(firstname: "Oliver", lastname: "Twist", age: 15)
-        CoreDateManager.shared.createPerson(firstname: "Luke", lastname: "Skywalker", age: 70)
+        CoreDataManager.shared.createPerson(firstname: "John", lastname: "Doe", age: 35)
+        CoreDataManager.shared.createPerson(firstname: "Liam", lastname: "Croft", age: 27)
+        CoreDataManager.shared.createPerson(firstname: "Oliver", lastname: "Twist", age: 15)
+        CoreDataManager.shared.createPerson(firstname: "Luke", lastname: "Skywalker", age: 70)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        CoreDateManager.shared.fetch()
+        CoreDataManager.shared.fetch()
     }
 }
 

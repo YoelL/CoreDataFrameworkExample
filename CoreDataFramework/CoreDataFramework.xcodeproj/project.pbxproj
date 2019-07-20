@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		B15FDD3C21F998AF004364F6 /* CoreDataFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B15FDD3A21F998AF004364F6 /* CoreDataFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B15FDD4421F99975004364F6 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B15FDD4221F99975004364F6 /* CoreDataModel.xcdatamodeld */; };
-		B15FDD4621F99CA7004364F6 /* CoreDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FDD4521F99CA7004364F6 /* CoreDateManager.swift */; };
+		B15FDD4621F99CA7004364F6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15FDD4521F99CA7004364F6 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +17,7 @@
 		B15FDD3A21F998AF004364F6 /* CoreDataFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataFramework.h; sourceTree = "<group>"; };
 		B15FDD3B21F998AF004364F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15FDD4321F99975004364F6 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
-		B15FDD4521F99CA7004364F6 /* CoreDateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDateManager.swift; sourceTree = "<group>"; };
+		B15FDD4521F99CA7004364F6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 		B15FDD2D21F998AF004364F6 = {
 			isa = PBXGroup;
 			children = (
-				B15FDD4521F99CA7004364F6 /* CoreDateManager.swift */,
+				B15FDD4521F99CA7004364F6 /* CoreDataManager.swift */,
 				B15FDD4221F99975004364F6 /* CoreDataModel.xcdatamodeld */,
 				B15FDD3921F998AF004364F6 /* CoreDataFramework */,
 				B15FDD3821F998AF004364F6 /* Products */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15FDD4621F99CA7004364F6 /* CoreDateManager.swift in Sources */,
+				B15FDD4621F99CA7004364F6 /* CoreDataManager.swift in Sources */,
 				B15FDD4421F99975004364F6 /* CoreDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

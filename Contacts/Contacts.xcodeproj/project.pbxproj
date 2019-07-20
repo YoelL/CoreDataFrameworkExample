@@ -12,7 +12,23 @@
 		B15FDD7221FAF5BD004364F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15FDD7021FAF5BD004364F6 /* Main.storyboard */; };
 		B15FDD7421FAF5C0004364F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B15FDD7321FAF5C0004364F6 /* Assets.xcassets */; };
 		B15FDD7721FAF5C0004364F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B15FDD7521FAF5C0004364F6 /* LaunchScreen.storyboard */; };
+		B1D7F78122E3A812008192B2 /* CoreDataFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D7F77F22E3A7A2008192B2 /* CoreDataFramework.framework */; };
+		B1D7F78222E3A812008192B2 /* CoreDataFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1D7F77F22E3A7A2008192B2 /* CoreDataFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1D7F78322E3A812008192B2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B1D7F78222E3A812008192B2 /* CoreDataFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B15FDD6921FAF5BD004364F6 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,7 +38,7 @@
 		B15FDD7321FAF5C0004364F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B15FDD7621FAF5C0004364F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B15FDD7821FAF5C0004364F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B15FDD8C21FAFC3C004364F6 /* CoreDataFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataFramework.framework; sourceTree = SOURCE_ROOT; };
+		B1D7F77F22E3A7A2008192B2 /* CoreDataFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D7F78122E3A812008192B2 /* CoreDataFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +58,7 @@
 			children = (
 				B15FDD6B21FAF5BD004364F6 /* Contacts */,
 				B15FDD6A21FAF5BD004364F6 /* Products */,
+				B1D7F77A22E3A6CE008192B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +73,7 @@
 		B15FDD6B21FAF5BD004364F6 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				B15FDD8C21FAFC3C004364F6 /* CoreDataFramework.framework */,
+				B1D7F77F22E3A7A2008192B2 /* CoreDataFramework.framework */,
 				B15FDD6C21FAF5BD004364F6 /* AppDelegate.swift */,
 				B15FDD6E21FAF5BD004364F6 /* ViewController.swift */,
 				B15FDD7021FAF5BD004364F6 /* Main.storyboard */,
@@ -64,6 +82,13 @@
 				B15FDD7821FAF5C0004364F6 /* Info.plist */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		B1D7F77A22E3A6CE008192B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,6 +101,7 @@
 				B15FDD6521FAF5BD004364F6 /* Sources */,
 				B15FDD6621FAF5BD004364F6 /* Frameworks */,
 				B15FDD6721FAF5BD004364F6 /* Resources */,
+				B1D7F78322E3A812008192B2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -289,6 +315,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Contacts",
 				);
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -297,7 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoelev.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,6 +338,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Contacts",
 				);
 				INFOPLIST_FILE = Contacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,7 +347,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoelev.Contacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
