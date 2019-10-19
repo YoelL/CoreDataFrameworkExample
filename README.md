@@ -1,4 +1,4 @@
-# Core Data Framework Example Updated to Swift 5.1 & Xcode 11
+# Core Data Framework Example Updated to support Swift 5.1 and Xcode GM Version 11.0 (11A420a)
 
 # Resources
 This repository contains an Xcode example project for the blog post at [Sharing a Core Data Model with a Swift Framework](https://medium.com/@yoellev8/sharing-a-core-data-model-with-a-swift-framework-5d191ccec99e/).
